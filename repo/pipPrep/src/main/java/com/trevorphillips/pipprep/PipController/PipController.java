@@ -38,7 +38,7 @@ public class PipController {
         Integer mostRepeatedInt = pipLogic.getMostFrecNumber(requestPojo);
 
         System.out.println(mostRepeatedInt);
-        return "GMT";
+        return "The most repeated value is: " + String.valueOf(mostRepeatedInt);
     }
 
 }

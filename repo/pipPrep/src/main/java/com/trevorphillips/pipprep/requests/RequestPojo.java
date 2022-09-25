@@ -1,5 +1,6 @@
 package com.trevorphillips.pipprep.requests;
 
+import javax.validation.constraints.Digits;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 import java.util.List;
